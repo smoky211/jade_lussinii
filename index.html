@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page de paiement</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 400px;
+      margin: 50px auto;
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .image-container img {
+      width: 100%;
+      border-radius: 10px;
+      /* L'effet de pixelisation */
+      image-rendering: pixelated;
+    }
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="image-container">
+      <!-- Ajouter l'image pixelisée -->
+      <img src="images/pixelated_image.png" alt="Image Pixelisée">
+    </div>
+    <h1>JADE_LUSSINI COQUINE DANS L'AME 🥵</h1>
+    <p><strong>1€ seulement 🤭</strong></p>
+    <button onclick="window.location.href='choix.html'">Payer</button>
+  </div>
+</body>
+</html>
